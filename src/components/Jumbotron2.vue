@@ -18,7 +18,7 @@ export default {
 
 .jumbotron {
 	height: 100vh;
-	background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250,250,250,0.5)), url('../assets/Scenic.jpg');
+	background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250,250,250,0.5)), url('../assets/Play.jpg');
 	background-size: cover;
 	margin-bottom: -8px;
 }

@@ -20,8 +20,11 @@
 
 </template>
 
+
+
+
+
 <script>
-import axios from 'axios'
 export default {
 	name: 'Segment',
 	props: {
@@ -32,20 +35,13 @@ export default {
 		ids: String,
 		highlight: String,
 		
-	},
-	methods: {
-		test: function (event) {
-			console.log(event)
-			axios.post('https://hooks.slack.com/services/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', JSON.stringify({text: "I'm going to do this one more time"})).then((response) => {
-				console.log("success", response)
-			}).catch((error)=> {
-				console.log("Failed", error)
-			})
-			
-		}
 	}
 }
 </script>
+
+
+
+
 
 <style scoped>
 

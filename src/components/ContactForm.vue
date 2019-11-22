@@ -50,7 +50,12 @@
 			<b-row class="pt-3 pb-3">
 				<b-col></b-col>
 				<b-col cols="4">
-					<b-button block variant="primary" @click.prevent="SubmitData()">Send</b-button>
+					<b-button v-b-modal.modal-1 block variant="primary" @click.prevent="SubmitData()">Send</b-button>
+
+					<b-modal id="modal-1" title="Submitted successfully!">
+						<p class="my-4">Thank you for the submission, you will reached out soon!</p>
+					</b-modal>
+
 				</b-col>
 				<b-col></b-col>
 			</b-row>
@@ -86,6 +91,12 @@ export default {
 			}).then(
 				(response) => {
 					console.log("success", response.config.data)
+					this.first_name = "";
+					this.last_name = "";
+					this.email = "";
+					this.tel = "";
+					this.message = "";
+
 				}
 			).catch((error)=> {
 				console.log("Error:", error)
