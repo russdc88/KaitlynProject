@@ -1,6 +1,6 @@
 <template>
 <div class="contact-me">
-	<div class="contact-form pt-4 ">
+	<div class="contact-form pt-4 my-form">
 		<h2 class="text-center" :id="ids">Contact Me</h2>
 			<b-row class="pt-3 pb-3"> 
 				<b-col></b-col>
@@ -115,13 +115,17 @@ export default {
 	
 	}
 
+	
+
+	
+
 
 
 
 	@media (max-width: 575px) {
 		.contact-me {
 			height: 110vh;
-			background-image: linear-gradient(#E1DBC5)
+			background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250,250,250,0.7)), url('../assets/background.jpg')
 		}
 
 		h2 {

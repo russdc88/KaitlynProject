@@ -1,7 +1,7 @@
 <template>
   <div class="about">
     <Jumbotron2 title="About Me" lead="Kaitlyn Christensen"/>
-			<Segment header="" image='Portrait.png' info='My name is Kaitlyn Christensen, and I’m 12 years old. I like art; I draw, paint, and make sculptures. I’ve also held an art class for younger kids. I like to swim and play tennis with my dad, and I also sing at a studio and perform in certain places. I like to act and hope that when I’m older I can act and be a movie makeup artist. I have a 4.0 gpa, and I enjoy most of the subjects at my school. I have lots of friends and like to make all of them laugh. '/>
+			<Segment header="" image='Portrait.png' info='My name is Kaitlyn Christensen, and I’m 12 years old. I like to draw, paint, and make sculptures. I’ve even organized and taught an art class for younger kids. I like to swim and play tennis with my dad, and I also sing at a studio and perform. I like to act and hope that when I’m older I can act and be a movie makeup artist. I have a 4.0 GPA, and I enjoy most of the subjects at my school. I have lots of friends and like to make them laugh.' highlight= 'I’ve even organized and taught an art class for younger kids.'/>
 			<Testimony/>
 			<ContactForm/>
 

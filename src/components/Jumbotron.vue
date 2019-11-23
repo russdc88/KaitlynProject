@@ -3,14 +3,21 @@
   <b-jumbotron  :header="title" :lead="lead">
 		<b-container class="bv-example-row">
 		<b-row align-h="center" class="text-center">
-			<b-col>
+
+			<b-col data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" data-aos-anchor-placement="top-center">
 				<div class="image1" @mouseover="hover = true" @mouseleave="hover = false"><h3 v-if="hover"><a href="#philo">Philosophy</a></h3></div>
 			</b-col>
-			<b-col>
-				<div class="image2" @mouseover="hover2 = true" @mouseleave="hover2 = false"><h3 v-if="hover2"><a href="#services">Services and Prices</a></h3></div>
+
+			<b-col data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" 
+			data-aos-delay="250" data-aos-anchor-placement="top-center">
+				<div class="image2" @mouseover="hover2 = true" @mouseleave="hover2 = false"><h3 v-if="hover2"><b-link href="#services">Prices & Services</b-link></h3></div>
 			</b-col>
-			<b-col>
-				<div class="image3" @mouseover="hover3 = true" @mouseleave="hover3 = false"><h3 v-if="hover3"><a href="#contact">Contact Me</a></h3></div></b-col>
+
+			<b-col data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1500" 
+			data-aos-delay="500" data-aos-anchor-placement="top-center">
+				<div class="image3" @mouseover="hover3 = true" @mouseleave="hover3 = false"><h3 v-if="hover3"><a href="#contact">Contact Me</a></h3></div>
+			</b-col>
+
 		</b-row>
 		</b-container>
   </b-jumbotron>
@@ -41,17 +48,31 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
+h1 {
+	border-style: solid;
+	border-color: #7E95A0;
+	border-width: 3px;
+	color: #F7BDBF;
+	word-spacing: 10px;
+	
+	
+}
+
 .jumbotron {
 	height: 100vh;
-	background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250,250,250,0.5)), url('../assets/Play.jpg');
+	background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250,250,250,0.5)), url('../assets/background.jpg');
 	background-size: cover;
-	margin-bottom: -8px;
+	margin-bottom: 0px;
 	
 }
 
 .display-3 {
-	padding-top: 10vh;
+	margin-top: 10vh;
 	opacity: 1 !important;
+	margin-left:-35px;
+	margin-right: -35px;
+	background-color: #7E95A0;
+	padding-bottom: 1vh;
 }
 
 
@@ -121,8 +142,7 @@ div.image3:hover {
 	}
 
 	h1.display-3 {
-
-		margin-top: 50px;
+		margin-top: 15vh;
 		font-size: 40px;
 	}
  }

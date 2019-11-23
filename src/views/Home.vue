@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-  <Jumbotron title="Kaitlyn's Babysitting" image1="Kaitlyn_fun.png" image2="Kaitlyn_Cover.png" image3="Portrait_filter.png"/>
-		<Segment image='Kaitlyn_fun.png' title='test' ids="philo" info=" Its hard leaving your kids at home. You don't know if they are safe or if you will come home to a messy home. It can be hard for kids to be home alone with someone they don't know well either. I want to create a healthy home for both the kids and the parents. I want the kids to have fun but feel safe and the parents can return home to a clean stressed-free home." highlight="I want to create a healthy home for both the kids and the parents"/>
+  <Jumbotron title="Kaitlyn's Babysitting Services" image1="Kaitlyn_fun.png" image2="Kaitlyn_Cover.png" image3="Portrait_filter.png"/>
+		<Segment image='Kaitlyn_fun.png' header='Philosophy' ids="philo" info="When I babysit, I want kids to feel safe and secure with me. That way, kids can focus on having fun and parents can focus on their date! When you walk through the door, you shouldn’t have to worry about a mess or wound-up rugrats. I want you to come home to happy kids, a clean house, and a stress-free environment." highlight="I want you to come home to happy kids, a clean house, and a stress-free environment."/>
 		<Services/>
 		<ContactForm ids="contact"/>
 		

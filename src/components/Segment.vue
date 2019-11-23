@@ -2,7 +2,7 @@
 <div class="segment">
 
 <b-container>
-	<h2 :id="ids">{{header}}</h2>
+	<h1 :id="ids">{{header}}</h1>
 <b-row class="segment2">
 	<b-col lg="6">
 		<b-img :src="require(`../assets/${image}`)" class='img-center' data-aos="fade-up" data-aos-easing="linear" data-aos-duration="1500"
@@ -45,9 +45,14 @@ export default {
 
 <style scoped>
 
+h1 {
+	padding-top: 5vh;
+	font-size: 45px;
+}
+
 .segment2{
-	padding-top: 20vh;
-	padding-bottom: 20vh;
+	padding-top: 10vh;
+	padding-bottom: 25vh;
 }
 
 p {

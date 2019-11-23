@@ -2,7 +2,7 @@
 	<div class="services" id="services">
 		<b-container>
 
-			<h2 class="pt-4 pb-4">Price & Services</h2>
+			<h2 class="pt-4 pb-4"> Prices & Services</h2>
 			<b-row class="pt-4">
 				
 				<b-col lg="3">
@@ -63,6 +63,7 @@ export default {
 
 	.card {
 		height: 350px;
+		border: 7px solid #4C8478
 	}
 	.container {
 		padding-top: 25vh;
