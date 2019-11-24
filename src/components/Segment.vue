@@ -9,7 +9,7 @@
 		data-aos-anchor-placement="top-center"> </b-img>
 	</b-col>
 	<b-col lg="6" data-aos="fade-up" data-aos-easing="ease-in-quad" data-aos-duration="1500"
-		data-aos-anchor-placement="top-center">
+		data-aos-anchor-placement="center-bottom">
 		<p class="text-left">{{info}}</p>
 		<h3 class="text-left pt-4">"{{highlight}}"</h3>
 	</b-col>
@@ -76,8 +76,8 @@ img {
 
 @media (max-width: 575px){
 	img {
-		height: 200px;
-		width: 200px;
+		height: 250px;
+		width: 250px;
 	}
 
 	p {
@@ -85,12 +85,24 @@ img {
 		padding-top:2em;
 	}
 	.segment2{
-		padding-top: 15vh;
+		padding-top: 5vh;
 		padding-bottom: 15vh;
 	}
 
 	.text-left {
 		text-align: center !important;
 	}
+}
+
+
+@media (min-width: 767px) and (max-width: 1024px) {
+	p {
+		padding-top: 2em;
+	}
+
+	.segment2{
+	padding-top: 6vh;
+	
+}
 }
 </style>

@@ -147,5 +147,17 @@ div.image3:hover {
 	}
  }
 
+ @media (min-width: 767px) and (max-width:1024px ) {
+	div.image1, div.image2, div.image3 {
+		height: 200px;
+		width: 200px;
+	}
+
+	h3 {
+		line-height: 200px;
+		font-size: 20px;
+	}
+ }
+
 
 </style>

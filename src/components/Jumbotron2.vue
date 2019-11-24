@@ -17,7 +17,7 @@ export default {
 <style scoped>
 
 .jumbotron {
-	height: 100vh;
+	height: 50vh;
 	background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250,250,250,0.5)), url('../assets/background.jpg');
 	background-size: cover;
 	margin-bottom: -8px;

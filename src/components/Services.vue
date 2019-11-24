@@ -2,7 +2,7 @@
 	<div class="services" id="services">
 		<b-container>
 
-			<h2 class="pt-4 pb-4"> Prices & Services</h2>
+			<h1 class="pt-4"> Prices & Services</h1>
 			<b-row class="pt-4">
 				
 				<b-col lg="3">
@@ -14,7 +14,7 @@
 					</b-card>
 				</b-col>
 
-				<b-col md="3">
+				<b-col lg="3">
 					<b-card class="pt-4" title="Standard Plus" sub-title="$8/hr">
 						<b-card-text>
 							1-2 kids, will feed, play, read, discipline, give bath, and put kids to sleep.
@@ -25,7 +25,7 @@
 					</b-card>
 				</b-col>
 				
-				<b-col md="3">
+				<b-col lg="3">
 					<b-card class="pt-4" title="Family" sub-title="$10/hr">
 						<b-card-text>
 							3+ kids, will feed, play, read, discipline, and put kids to sleep. 
@@ -33,7 +33,7 @@
 					</b-card>
 				</b-col>
 
-				<b-col md="3">
+				<b-col lg="3">
 					<b-card class="pt-4" title="Family Plus" sub-title="$12/hr">
 						<b-card-text>
 							3+ kids, will feed, play, read, discipline, and put kids to sleep. 
@@ -66,8 +66,12 @@ export default {
 		border: 7px solid #4C8478
 	}
 	.container {
-		padding-top: 25vh;
+		padding-top: 5vh;
 		padding-bottom: 25vh;
+	}
+
+	h1 {
+		padding-bottom: 10vh;
 	}
 
 	@media (max-width: 575px){
@@ -76,6 +80,12 @@ export default {
 		}
 		.container {
 			padding-top: 15vh;
+		}
+	}
+
+	@media (min-width: 767px) and (max-width: 1024px) {
+		.card {
+			height:225px;
 		}
 	}
 	

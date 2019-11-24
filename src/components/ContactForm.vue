@@ -1,8 +1,8 @@
 <template>
 <div class="contact-me">
-	<div class="contact-form pt-4 my-form">
-		<h2 class="text-center" :id="ids">Contact Me</h2>
-			<b-row class="pt-3 pb-3"> 
+	<div class="contact-form pt-3 my-form">
+		<h1 class="text-center" :id="ids">Contact Me</h1>
+			<b-row class="pt-2 pb-3"> 
 				<b-col></b-col>
 				<b-col cols="6">
 					<div class="mb-2">First Name</div>
@@ -112,10 +112,18 @@ export default {
 	height: 100vh;
 	background-image: linear-gradient(rgba(250, 250, 250, 0.5), rgba(250,250,250,0.7)), url('../assets/Kaitlyn_Cover.png');
 	background-size: cover;
+
 	
 	}
 
-	
+	.btn-primary {
+    background-color: #4C8478;
+    border-color: #4C8478;
+	}	
+
+	.btn {
+		color: white;
+	}
 
 	
 
@@ -132,6 +140,15 @@ export default {
 		padding-top: 4em;;
 	}
 
-		
+	h1 {
+		padding-top: 13vh;
+	}
+	
+	}
+
+	@media (min-width: 767px) and (max-width: 1024px) {
+		h1 {
+			padding-top: 10vh;
+		}
 	}
 </style>
