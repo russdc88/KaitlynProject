@@ -50,10 +50,10 @@
 			<b-row class="pt-3 pb-3">
 				<b-col></b-col>
 				<b-col cols="4">
-					<b-button v-b-modal.modal-1 block variant="primary" @click.prevent="SubmitData()">Send</b-button>
+					<b-button v-b-modal.modal-1 block variant="primary" @click.prevent="SubmitData">Send</b-button>
 
 					<b-modal id="modal-1" title="Submitted successfully!">
-						<p class="my-4">Thank you for the submission, you will reached out soon!</p>
+						<p class="my-4">Thank you for the submission, you will be contacted soon!</p>
 					</b-modal>
 
 				</b-col>
@@ -124,6 +124,11 @@ export default {
 	.btn {
 		color: white;
 	}
+
+.btn-primary:hover {
+	background-color: #4C8478;
+	border-color: #4C8478;
+}
 
 	
 

@@ -5,6 +5,7 @@
 		<Services/>
 		<ContactForm ids="contact"/>
 		
+		
 
   </div>
 </template>
@@ -16,13 +17,15 @@ import Segment from '@/components/Segment.vue'
 import ContactForm from '@/components/ContactForm.vue'
 import Services from '@/components/Services.vue'
 
+
 export default {
   name: 'home',
   components: {
 		Jumbotron,
 		Segment,
 		ContactForm, 
-		Services
+		Services,
+		
   }
 }
 </script>

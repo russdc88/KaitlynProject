@@ -83,7 +83,7 @@ export default {
 		}
 	}
 
-	@media (min-width: 767px) and (max-width: 1024px) {
+	@media (min-width: 767px) and (max-width: 1023px) {
 		.card {
 			height:225px;
 		}
